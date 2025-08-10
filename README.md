@@ -20,3 +20,29 @@ Data Sources:
 
 Historical price data for sector ETFs (e.g., XLK, XLF, XLE) was retrieved using the Polygon API.
 Macroeconomic indicators (CPI, Fed Funds Rate) were sourced from the Federal Reserve Economic Data (FRED) API.
+
+Requirements
+To run this project, install dependencies:
+
+Bash
+pip install -r requirements.txt
+
+Running the Dashboard
+In your terminal:
+
+Bash
+cd Regime_Research
+streamlit run Streamlit_Sector_Dashboard_KPIs.py
+
+
+
+Future Improvements:
+Connect to live market data via the Polygon API for continuous updates.
+
+Expand regime detection to more categories.
+
+Deploy the Streamlit app online for public access.
+
+
+
+
